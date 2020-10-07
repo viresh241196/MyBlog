@@ -1,0 +1,14 @@
+{%extends 'blog/base.html'%}
+{%block content%}
+{% for post in posts%}
+    <article class="media content-section">
+        <p><legend><a class="border-bottom mb-1 font-weight-bolder" href="{% url 'detail_post' post.id%}">{{post.title}}</a></legend>
+            by <a href="{% url 'user_posts' post.author_id%}">{{post.author.username}}</a><br>
+            {% if post.image %}
+                <img src="{{post.image.url }}"><br>
+            {%endif%}
+        Posted on {{ post.date| date:"F d, Y" }}.<br>
+        {{post.content}} </p>
+    </article><hr>
+{%endfor%}
+{%endblock%}

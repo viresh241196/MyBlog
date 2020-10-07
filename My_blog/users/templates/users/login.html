@@ -1,0 +1,25 @@
+{% extends "blog/base.html" %}
+{% load crispy_forms_tags %}
+{% block content%}
+    <div class="content-section">
+       <form method="post">
+            {% csrf_token %}
+           <fieldset class="form-group">
+                <legend class="border-bottom mb-4">Log In</legend>
+            Enter your username: <input type="text" name="username"><br><br>
+            Enter your password: <input type="password" name="password"><br>
+           </fieldset>
+
+           <button class="btn btn-outline-info" type="submit">Login</button>
+                <small class="text-muted ml-2">
+                    <a href="#">Forgot Password</a>
+                </small>
+
+        </form>
+        <div class="border-top pt-3">
+            <small class="text-muted">
+                Need An Account ? <a class="ml-2" href="{% url 'register'%}">Sign Up</a>
+            </small>
+        </div>
+    </div>
+{% endblock content %}
