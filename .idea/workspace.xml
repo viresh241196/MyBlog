@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="639e9811-2117-4a53-ad2c-30ced6d9e9e3" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/MyBlog/My_blog/My_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/My_blog/My_blog/settings.py" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MyBlog" />
+  </component>
+  <component name="ProjectId" id="1hfgZNup0MxR77MU1HYcLQXUilX" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\hp\PycharmProjects\My_Blog\My_blog\Blog\templates\Blog" />
+      <recent name="C:\Users\hp\PycharmProjects\My_Blog\My_blog\users\templates" />
+      <recent name="C:\Users\hp\PycharmProjects\My_Blog\My_blog\Blog\migrations" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="639e9811-2117-4a53-ad2c-30ced6d9e9e3" name="Default Changelist" comment="" />
+      <created>1600407616396</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1600407616396</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1600845937136">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1600845937136" />
+    <state x="181" y="43" key="SettingsEditor" timestamp="1602224452611">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="181" y="43" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1602224452611" />
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601967259004">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="346" y="89" width="672" height="678" key="search.everywhere.popup/0.0.1366.768@0.0.1366.768" timestamp="1601967259004" />
+  </component>
+</project>
