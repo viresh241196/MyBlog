@@ -26,7 +26,7 @@ SECRET_KEY = 'kthd8!q*)bib(l1p1dx$%4#m25opx*wu6@o+=g!b$77_c=8ni+'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['viresh24.pythonanywhere.com']
 
 
 # Application definition
