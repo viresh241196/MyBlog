@@ -2,7 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639e9811-2117-4a53-ad2c-30ced6d9e9e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/MyBlog/My_blog/My_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/MyBlog/My_blog/My_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/base.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/detail_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/detail_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/new_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/update_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/update_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/user_posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/templates/users/login.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/templates/users/profile.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/templates/users/register.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,7 +29,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/MyBlog" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hfgZNup0MxR77MU1HYcLQXUilX" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -66,6 +77,10 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1602400760246">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1602400760246" />
     <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1600845937136">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -74,6 +89,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="181" y="43" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1602224452611" />
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1602400610990">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1602400610990" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601967259004">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
