@@ -1,5 +1,5 @@
 from django.shortcuts import render, redirect
-from .models import Post
+from .models import Post, PostComment
 from .form import NewPostForm
 from django.contrib import messages
 from django.contrib.auth.models import User
@@ -28,7 +28,6 @@ def new_post(request):
             new = Post.objects.create(title=title, content=content, author=request.user, image=img)
             messages.success(request, f"Your new post has successfully posted.")
             return redirect('blog-home')
-
     else:
         form = NewPostForm()
         return render(request, 'Blog/new_post.html', {'form': form})
@@ -36,7 +35,20 @@ def new_post(request):
 
 def detail_post(request, id):
     post = Post.objects.get(id=id)
-    return render(request, 'Blog/detail_post.html', {'post': post})
+    comments = PostComment.objects.filter(post=post)
+    return render(request, 'Blog/detail_post.html', {'post': post, 'comments': comments})
+
+
+def post_comment(request):
+    if request.method == 'POST':
+        comment = request.POST.get('comment')
+        user = request.user
+        post_id = request.POST.get('post_id')
+        post = Post.objects.filter(id=post_id).first()
+        create_comment = PostComment(comment=comment, user=user, post=post)
+        create_comment.save()
+        messages.success(request, f'your comment is successfully added.')
+        return redirect('detail_post', post_id)
 
 
 def user_post(request, author_id):

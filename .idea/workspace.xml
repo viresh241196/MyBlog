@@ -4,16 +4,16 @@
     <list default="true" id="639e9811-2117-4a53-ad2c-30ced6d9e9e3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/detail_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/detail_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/new_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/update_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/update_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/user_posts.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/users/templates/users/login.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/templates/users/login.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/templates/users/profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/users/templates/users/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/templates/users/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/My_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/My_blog/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/views.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +41,8 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library/Library" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,23 +76,36 @@
     </task>
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/MyBlog" />
+    </ignored-roots>
+  </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="42" key="#Notifications" timestamp="1606296520364">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="42" key="#Notifications/0.0.1366.768@0.0.1366.768" timestamp="1606296520364" />
+    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1606286431314">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1606286431314" />
     <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1602400760246">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1602400760246" />
-    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1600845937136">
+    <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1606287236746">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1600845937136" />
-    <state x="181" y="43" key="SettingsEditor" timestamp="1602224452611">
+    <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606287236746" />
+    <state x="179" y="52" key="SettingsEditor" timestamp="1606370111021">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="181" y="43" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1602224452611" />
-    <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1602400610990">
+    <state x="179" y="52" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1606370111021" />
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1605177771844">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1602400610990" />
+    <state x="379" y="207" key="com.intellij.ide.util.TipDialog/0.0.1366.768@0.0.1366.768" timestamp="1605177771844" />
     <state x="346" y="89" width="672" height="678" key="search.everywhere.popup" timestamp="1601967259004">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

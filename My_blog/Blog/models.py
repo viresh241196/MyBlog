@@ -21,3 +21,10 @@ class Post(models.Model):
                 output_size = (650, 650)
                 img.thumbnail(output_size)
                 img.save(self.image.path)
+
+class PostComment(models.Model):
+    comment = models.TextField()
+    user = models.ForeignKey(User, on_delete=models.CASCADE)
+    post = models.ForeignKey(Post, on_delete=models.CASCADE)
+    parent = models.ForeignKey('self',on_delete=models.CASCADE, null=True)
+    timestamp = models.DateTimeField(auto_now=True)
