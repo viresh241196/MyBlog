@@ -1,5 +1,7 @@
 {%extends 'Blog/base.html'%}
 {%block content%}
+{%load extras%}
+{%load static%}
 <!--{% if messages%}-->
 <!--{% for message in messages%}-->
 <!--<h2>-->
@@ -11,22 +13,22 @@
 <!--{%endif%}-->
 
 <article class="media content-section">
-<div class="my-3">
-    <p>
-        <legend class="border-bottom mb-1">{{post.title}}
-            {%if post.author == user%}
-            <a href="{% url 'update_post' post.id%}"><span class="badge badge-primary">update post</span></a>
+    <div class="my-3">
+        <p>
+            <legend class="border-bottom mb-1">{{post.title}}
+                {%if post.author == user%}
+                <a href="{% url 'update_post' post.id%}"><span class="badge badge-primary">update post</span></a>
+                {%endif%}
+            </legend>
+            <br>
+            by author <a href="{% url 'user_posts' post.author_id%}">{{post.author.username}}</a><br>
+            {% if post.image %}
+            <img src="{{post.image.url }}"><br>
             {%endif%}
-        </legend>
-        <br>
-        by author <a href="{% url 'user_posts' post.author_id%}">{{post.author.username}}</a><br>
-        {% if post.image %}
-        <img src="{{post.image.url }}"><br>
-        {%endif%}
-        Posted on {{ post.date| date:"F d, Y" }}.<br>
-        {{post.content}}
-    </p>
-</div>
+            Posted on {{ post.date| date:"F d, Y" }}.<br>
+            {{post.content}}
+        </p>
+    </div>
 </article>
 
 <div>
@@ -39,6 +41,7 @@
             <input type="text" name="comment" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp"
                    placeholder="enter your comment here">
             <input type="hidden" name="post_id" value="{{post.id}}">
+            <input type="hidden" name="parent" value="">
         </div>
         <button type="submit" class="btn btn-primary">Submit</button>
     </form>
@@ -52,9 +55,53 @@
 <div>
     {%for comment in comments%}
     <div class="row my-3">
-        <div class="col-md-1 bg-primary">image</div>
-        <div class="col-md-11 bg-secondary">{{comment.comment}}</div>
+        <div class="col-md-1 ">
+            <img class="w-100 rounded" src="/static/profile_std.png" alt="--">
+        </div>
+        <div class="col-md-11 "><b>{{comment.user.username}}</b>
+            <div class="">{{comment.comment}}</div>
+        </div>
+        <div class="reply mx-0 p-4  ">
+            <div class="replies my-2">
+                <div class="row my-3">
+                    {%for reply in replydict|get_val:comment.id%}
+                    <div class="col-md-1 ">
+                        <img class="w-100 rounded" src="/static/profile_std.png" alt="--">
+                    </div>
+                    <div class="col-md-11 ">
+
+                        <b>{{comment.user.username}}</b><br>
+
+                        {{reply}}<br>
+                    </div>
+                    {%endfor%}
+                </div>
+
+                {% if user.is_authenticated %}
+                <button class="my-3 ml-5 btn btn-sm btn-primary" type="button" data-toggle="collapse"
+                        data-target="#ReplyBox{{comment.id}}"
+                        aria-expanded="false" aria-controls="ReplyBox{{comment.id}}">
+                        Reply
+                </button>
+                <div class="collapse" id="ReplyBox{{comment.id}}">
+                    <div class="card card-body my-2">
+                        <form action="{% url 'post_comment'%}" method="post">
+                            {% csrf_token %}
+                            <div class="form-group">
+                                <label>Add Reply</label>
+                                <input type="text" name="comment" class="form-control"
+                                       placeholder="enter your reply here">
+                                <input type="hidden" name="post_id" value="{{post.id}}">
+                                <input type="hidden" name="parent" value="{{comment.id}}">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </form>
+                    </div>
+                </div>
+                {%endif%}
+
+            </div>
+        </div>
+        {%endfor%}
     </div>
-    {%endfor%}
-</div>
-{%endblock%}
+    {%endblock%}

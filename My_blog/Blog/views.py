@@ -35,8 +35,15 @@ def new_post(request):
 
 def detail_post(request, id):
     post = Post.objects.get(id=id)
-    comments = PostComment.objects.filter(post=post)
-    return render(request, 'Blog/detail_post.html', {'post': post, 'comments': comments})
+    comments = PostComment.objects.filter(post=post, parent=None)
+    replies = PostComment.objects.filter(post=post).exclude(parent=None)
+    replydict = {}
+    for reply in replies:
+        if reply.parent.id not in replydict.keys():
+            replydict[reply.parent.id] = [reply.comment]
+        else:
+            replydict[reply.parent.id].append(reply.comment)
+    return render(request, 'Blog/detail_post.html', {'post': post, 'comments': comments, 'replydict': replydict})
 
 
 def post_comment(request):
@@ -45,9 +52,15 @@ def post_comment(request):
         user = request.user
         post_id = request.POST.get('post_id')
         post = Post.objects.filter(id=post_id).first()
-        create_comment = PostComment(comment=comment, user=user, post=post)
+        parent = request.POST.get('parent')
+        if parent == '':
+            create_comment = PostComment(comment=comment, user=user, post=post)
+            messages.success(request, f'your comment is successfully added.')
+        else:
+            parent = PostComment.objects.get(id=parent)
+            create_comment = PostComment(comment=comment, user=user, post=post, parent=parent)
+            messages.success(request, f'your reply is successfully added.')
         create_comment.save()
-        messages.success(request, f'your comment is successfully added.')
         return redirect('detail_post', post_id)
 
 
