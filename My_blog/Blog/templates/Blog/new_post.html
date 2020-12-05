@@ -1,5 +1,10 @@
 {%extends 'Blog/base.html'%}
 {%load crispy_forms_tags%}
+{% load static %}  
+<!--{%block js%}-->
+<!--   <script src="{% static '/tinyInject.js' %}"></script>   -->
+<!--{%endblock js%}-->
+
 {%block content%}
 {% if messages%}
 {% for message in messages%}
@@ -11,6 +16,7 @@
             {% csrf_token %}
             <fieldset class="form-group">
                 <legend class="border-bottom mb-4">NEW POST</legend>
+                {{ form.media }}
                 {{ form | crispy }}
             </fieldset>
             <div class="form-group">

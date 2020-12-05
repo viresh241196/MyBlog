@@ -26,7 +26,7 @@
             <img src="{{post.image.url }}"><br>
             {%endif%}
             Posted on {{ post.date| date:"F d, Y" }}.<br>
-            {{post.content}}
+            {{post.content|safe}}
         </p>
     </div>
 </article>
@@ -61,24 +61,8 @@
         <div class="col-md-11 "><b>{{comment.user.username}}</b>
             <div class="">{{comment.comment}}</div>
         </div>
-        <div class="reply mx-0 p-4  ">
-            <div class="replies my-2">
-                <div class="row my-3">
-                    {%for reply in replydict|get_val:comment.id%}
-                    <div class="col-md-1 ">
-                        <img class="w-100 rounded" src="/static/profile_std.png" alt="--">
-                    </div>
-                    <div class="col-md-11 ">
-
-                        <b>{{comment.user.username}}</b><br>
-
-                        {{reply}}<br>
-                    </div>
-                    {%endfor%}
-                </div>
-
-                {% if user.is_authenticated %}
-                <button class="my-3 ml-5 btn btn-sm btn-primary" type="button" data-toggle="collapse"
+        {% if user.is_authenticated %}
+                <button class="my-3 btn btn-sm btn-primary" type="button" data-toggle="collapse"
                         data-target="#ReplyBox{{comment.id}}"
                         aria-expanded="false" aria-controls="ReplyBox{{comment.id}}">
                         Reply
@@ -98,10 +82,27 @@
                         </form>
                     </div>
                 </div>
-                {%endif%}
+        </div>
+        {%endif%}
+
+        <div class="reply mx-0 p-3 container">
+            <div class="replies my-2">
+                <div class="row my-3">
+                    {%for reply in replydict|get_val:comment.id%}
+                    <div class="col-md-1 ">
+                        <img class="w-100 rounded" src="/static/profile_std.png" alt="--">
+                    </div>
+                    <div class="col-md-11 mt-2">
+                        <b>{{comment.user.username}}</b><br>
+                        {{reply}}<br>
+                        <hr color="red">
+                    </div>
+                    {%endfor%}
+                    <hr color="red">
+                </div>
 
             </div>
         </div>
         {%endfor%}
     </div>
-    {%endblock%}
+{%endblock%}

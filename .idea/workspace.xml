@@ -2,18 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639e9811-2117-4a53-ad2c-30ced6d9e9e3" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/Blog/migrations/0003_post_name.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/search.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/static/tinyinject.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/form.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/base.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/detail_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/detail_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/home.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/new_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/update_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/update_post.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/user_posts.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/urls.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/My_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/My_blog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/users/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/My_blog/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/templates/users/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -32,17 +39,20 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1hfgZNup0MxR77MU1HYcLQXUilX" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../library/Library" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -77,6 +87,7 @@
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <ignored-roots>
       <path value="$PROJECT_DIR$/MyBlog" />
     </ignored-roots>
@@ -98,10 +109,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="463" y="138" key="FileChooserDialogImpl/0.0.1366.768@0.0.1366.768" timestamp="1606287236746" />
-    <state x="179" y="52" key="SettingsEditor" timestamp="1606370111021">
+    <state x="179" y="52" key="SettingsEditor" timestamp="1607149430406">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="179" y="52" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1606370111021" />
+    <state x="179" y="52" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1607149430406" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1605177771844">
       <screen x="0" y="0" width="1366" height="768" />
     </state>

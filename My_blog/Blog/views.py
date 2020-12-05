@@ -18,6 +18,13 @@ def about(request):
     return render(request, 'Blog/about.html', content)
 
 
+def search(request):
+    query= request.GET.get('query')
+    title = Post.objects.filter(title__contains=query)
+    name = Post.objects.filter(name__contains=query)
+    posts= title.union(name)
+    return render(request, 'Blog/search.html', {'posts':posts,'query':query})
+
 def new_post(request):
     if request.method == 'POST':
         form = NewPostForm(request.POST, request.FILES)
@@ -25,7 +32,7 @@ def new_post(request):
             title = form.cleaned_data['title']
             img = form.cleaned_data['image']
             content = form.cleaned_data['content']
-            new = Post.objects.create(title=title, content=content, author=request.user, image=img)
+            new = Post.objects.create(title=title, content=content, author=request.user, image=img,name=request.user.username)
             messages.success(request, f"Your new post has successfully posted.")
             return redirect('blog-home')
     else:
