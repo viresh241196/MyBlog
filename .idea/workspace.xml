@@ -2,25 +2,440 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="639e9811-2117-4a53-ad2c-30ced6d9e9e3" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/My_blog/Blog/migrations/0003_post_name.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/search.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/My_blog/static/tinyinject.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/Blog/migrations/0004_auto_20201205_1211.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/de-ch.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/a11yhelp.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/az.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/oc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/a11yhelp/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/about/dialogs/about.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/autoembed/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/bbcode/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/clipboard/dialogs/paste.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/icons/hidpi/codesnippet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/CHANGES.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/README.ru.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/highlight.pack.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/arta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/ascetic.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-forest.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/atelier-lakeside.light.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/brown_paper.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/far.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/github.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/googlecode.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/idea.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/ir_black.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/monokai_sublime.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/paraiso.dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/pojoaque.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/rainbow.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/solarized_dark.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/tomorrow-night-bright.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/lib/highlight/styles/zenburn.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/codesnippet/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/colordialog/dialogs/colordialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/copyformatting/cursors/cursor.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/devtools/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/div/dialogs/div.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/icons/docprops-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/icons/hidpi/docprops-rtl.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/ro.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/sr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/sv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/docprops/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embed/icons/hidpi/embed.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/dialogs/embedbase.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedbase/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedsemantic/icons/embedsemantic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedsemantic/icons/hidpi/embedsemantic.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/embedsemantic/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/filetools/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/find/dialogs/find.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/flash/images/placeholder.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/forms/dialogs/radio.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/forms/dialogs/select.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/forms/dialogs/textarea.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/forms/dialogs/textfield.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/forms/images/hiddenfield.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/icons/image.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/fo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/mn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/image2/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/icons/hidpi/language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/icons/language.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/ru.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/language/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/link/dialogs/link.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/magicline/images/hidpi/icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/images/loader.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/cy.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/sl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/uk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/mathjax/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/menubutton/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/notification/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/notification/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/notification/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/notification/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/notification/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/pagebreak/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/et.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/hr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/id.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/nl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/placeholder/lang/th.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/preview/images/pagebreak.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/preview/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/scayt/CHANGELOG.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/scayt/LICENSE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/scayt/dialogs/toolbar.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sharedspace/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/showblocks/images/block_div.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/showblocks/images/block_h3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/showblocks/images/block_h6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/showblocks/images/block_p.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/dialogs/smiley.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/broken_heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/confused_smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/embarrassed_smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/envelope.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/heart.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/heart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/kiss.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/lightbulb.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/regular_smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/sad_smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/shades_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/thumbs_up.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/whatchutalkingabout_smile.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/smiley/images/wink_smile.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/icons/sourcedialog.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/fr-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/gu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/is.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/ka.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/lt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/ms.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/si.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/tr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/sourcedialog/plugin.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/bg.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/cs.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/de.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/el.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en-au.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en-ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/gl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ja.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/pt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/specialchar/dialogs/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/tableselection/styles/tableselection.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/templates/dialogs/templates.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/templates/dialogs/templates.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/templates/templates/default.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/templates/templates/images/template1.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/icons/uicolor.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/_translationstatus.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/es.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/eu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/fr.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/lv.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/mk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/nb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/no.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/pl.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/ug.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/yui/assets/hue_thumb.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/yui/assets/picker_mask.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/yui/assets/yui.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uicolor/yui/yui.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uploadwidget/lang/da.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uploadwidget/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uploadwidget/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uploadwidget/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uploadwidget/lang/ku.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/uploadwidget/lang/zh.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/af.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/ar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/ca.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/en-gb.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/en.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/eo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/fa.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/fi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/he.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/hu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/it.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/km.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/ko.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/pt-br.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/sk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/sq.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/tt.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/vi.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/plugins/widget/lang/zh-cn.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono-lisa/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono-lisa/editor_iequirks.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono-lisa/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono-lisa/icons_hidpi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono-lisa/images/hidpi/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono-lisa/images/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono-lisa/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/dialog.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/dialog_ie7.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/editor_gecko.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/editor_ie8.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/icons.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/images/hidpi/close.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/images/hidpi/refresh.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/images/lock-open.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/images/lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/skins/moono/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/ckeditor/vendor/promise.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/file-icons/pdf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/file-icons/swf.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/file-icons/xls.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/galleriffic/css/galleriffic-1.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/galleriffic/css/galleriffic-2.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/galleriffic/css/jush.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/galleriffic/css/nextPageArrow.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/galleriffic/css/nextPageArrowWhite.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/assets/ckeditor/galleriffic/js/jquery-1.3.2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/My_blog/media/post_img/wp3105538.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/models.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/detail_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/detail_post.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/new_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/new_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/update_post.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/update_post.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/user_posts.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/templates/Blog/user_posts.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/Blog/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/Blog/views.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/My_blog/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/My_blog/settings.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/My_blog/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/users/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/My_blog/users/templates/users/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/My_blog/users/templates/users/profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +499,14 @@
       <option name="presentableId" value="Default" />
       <updated>1600407616396</updated>
     </task>
+    <task id="LOCAL-00001" summary="added ckeditor">
+      <created>1607151260260</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607151260260</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -91,6 +514,8 @@
     <ignored-roots>
       <path value="$PROJECT_DIR$/MyBlog" />
     </ignored-roots>
+    <MESSAGE value="added ckeditor" />
+    <option name="LAST_COMMIT_MESSAGE" value="added ckeditor" />
   </component>
   <component name="WindowStateProjectService">
     <state x="275" y="42" key="#Notifications" timestamp="1606296520364">
@@ -101,10 +526,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="137" y="38" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1366.768@0.0.1366.768" timestamp="1606286431314" />
-    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1602400760246">
+    <state x="337" y="0" key="CommitChangelistDialog2" timestamp="1607239043529">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
-    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1602400760246" />
+    <state x="337" y="0" key="CommitChangelistDialog2/0.0.1366.768@0.0.1366.768" timestamp="1607239043529" />
     <state x="463" y="138" key="FileChooserDialogImpl" timestamp="1606287236746">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
@@ -113,6 +538,10 @@
       <screen x="0" y="0" width="1366" height="768" />
     </state>
     <state x="179" y="52" key="SettingsEditor/0.0.1366.768@0.0.1366.768" timestamp="1607149430406" />
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2" timestamp="1607151300799">
+      <screen x="0" y="0" width="1366" height="768" />
+    </state>
+    <state x="275" y="105" key="Vcs.Push.Dialog.v2/0.0.1366.768@0.0.1366.768" timestamp="1607151300799" />
     <state x="379" y="207" key="com.intellij.ide.util.TipDialog" timestamp="1605177771844">
       <screen x="0" y="0" width="1366" height="768" />
     </state>
